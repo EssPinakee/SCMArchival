@@ -1,5 +1,7 @@
 SET NOCOUNT ON;
 
+--Added by Pinakee to Check the adding of things
+
 DECLARE @ReceiptsToBeRetainedForDays INT = 365 * 2
 	,@MaxDateToRetainReceipts DATETIME
 	,@BatchSize INT = 5000
